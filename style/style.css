@@ -24,7 +24,7 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
-    
+
 
 /* main css  */
 
@@ -93,10 +93,11 @@ nav ul li a {
     font-size: 85px;
 }
 
-.cntent p {
+.content p {
     color: #757575;
     font-size: 18px;
     margin: 20px 0 0 0;
+    width: 585px;
 }
 
 .content .btns {
@@ -105,4 +106,201 @@ nav ul li a {
     margin-top: 30px;
 
 }
+
+
+
+/* about section  */
+
+#about {
+    width: 71%;
+    max-width: 1140px;
+    margin: 130px auto 0 auto;
+
+}
+
+#about .about-container {
+    margin: auto;
+}
+
+#about .about-container h2{
+    text-align: center;
+}
+ #about .about-container > p {
+    margin: 30px auto 0 auto;
+    color: #757575;
+    width: 827px;
+
+ }
+
+ #about .about-container .info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+ }
+
+ #about .about-container .info p {
+    text-align: center;
+ }
+
+
+
+/* what i do section  */
+
+#what-i-do {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+#what-i-do h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#what-i-do p {
+    width: 827px;
+    margin: 0 auto 50px auto;
+    color: #757575;
+}
+
+
+
+/* skills section   */
+
+
+
+#skills .skills-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+#skills .skills-container p{
+    color: #757575;
+}
+
+
+#skills .skills-container .card-container {
+    padding: 30px;
+}
+#skills .skills-container .card-container .card-content {
+    margin-top: 30px;
+
+}
+#skills .skills-container .card-container .card-content p{
+    margin-top: 20px;
+}
+#skills .skills-container .card-container .card-content h2 {
+    font-size: 24px;
+}
+
+
+/* resume-section */
+
+#resume {
+    
+    
+}
+
+#resume .resume-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 130px auto 0 auto;
+}
+
+#resume .resume-container h3 {
+    text-align: center;
+}
+
+#resume .resume-container .resume-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+
+}
+
+#resume .resume-container .resume-main  .resume-card {
+    width: 511px;
+    margin-top: 30px;
+}
+
+#resume .resume-container .resume-main  .resume-card h5 {
+    margin-top: 30px;
+}
+
+#resume .resume-container .resume-main  .resume-card h6 {
+    margin-top: 10px;
+    color: #757575;
+}
+
+#resume .resume-container .resume-main  .resume-card p {
+    margin-top: 20px;
+    color: #757575;
+}
+
+#resume .resume-container  button{
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+}
+
+
+
+/* footer section  */
+
+
+footer {
+    padding: 130px 230px;
+}
+
+footer .footer-container {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+footer .footer-container .contact p {
+    margin-top: 30px;
+    color: #757575;
+    width: 562px;
+
+}
+
+footer .footer-container form {
+    margin-top: 28px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+footer .footer-container form input, textarea {
+    padding: 10px;
+    border: none;
+}
+
+footer .footer-container form #sub {
+    width: 100px;
+}
+
+footer .footer-container h4{
+    font-size: 35px;
+}
+
+
+nav ul li a{
+    margin-right: 30px;
+    color: #FD6E0A;
+
+}
+
+nav#social-links {
+    margin-top: 30px;
+    float: left;
+}
+
 
