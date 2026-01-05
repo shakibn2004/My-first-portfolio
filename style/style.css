@@ -28,10 +28,14 @@ body {
 
 /* main css  */
 
+
+/* header section   */
+
 header {
-    display: flex;
-    justify-content: center;
     padding-top: 50px;
+    background: url('../images/developer.png'), url('../images/header_bg.png'), #fff8f3;
+    background-repeat: no-repeat;
+    background-position: left 23px top 38px, right 0 bottom 0;
 
 }
 
@@ -41,6 +45,7 @@ nav {
     width: 71%;
     max-width: 1140px;
     align-items: center;
+    margin: 0px auto;
 }
 
 .logo span {
@@ -65,3 +70,39 @@ nav ul li a {
     color: #474747;
     font-size: 20px;
 }
+
+
+
+/* header banner section  */
+
+#banner {
+    display: flex;
+    margin: 46px 38px 0 230px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content h2 {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.content h1 {
+    font-size: 85px;
+}
+
+.cntent p {
+    color: #757575;
+    font-size: 18px;
+    margin: 20px 0 0 0;
+}
+
+.content .btns {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+
