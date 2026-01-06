@@ -83,6 +83,11 @@ nav ul li a {
 
 }
 
+#banner .img img {
+    display: block;
+    margin-bottom: 0;
+}
+
 .content h2 {
     color: #474747;
     font-size: 45px;
